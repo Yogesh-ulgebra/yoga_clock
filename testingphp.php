@@ -18,12 +18,12 @@
 
 	</script>
 	<script>
-
+var angle = 360;
 		$(document).ready(function(){
 			$(function animate(){
         	//console.log('ok');
-        	$("#in1").animate({ rotate: '0deg'},animate);
-        	$("#in1").animate({ rotate: '360deg'},800);
+        	$("#in1").animate({ rotate: angle+'deg'},600,animate);
+        	$("#in1").animate({ rotate: '0deg'},0);
     });
 
 });
