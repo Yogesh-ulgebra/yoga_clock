@@ -5,30 +5,32 @@
 	
 	<link rel="stylesheet" type="text/css" href="testingphp.css">
 	<script src="./jquery.js"></script>
-	<script src="./qtransform1.js"></script>
-	<script type="text/javascript">
 
-	<?php
+	<style type="text/css">
+		
+		@keyframes spin3 {
+  
+          0% { transform: rotatez(<?php echo "90"; ?>deg);}
+          100% { transform: rotatez(360deg);}
+  
+        }
 
-		$ang = date('s');
+        @keyframes spin {
+  
+          0% { transform: rotatez(0deg);}
+          100% { transform: rotatez(360deg);}
+  
+        }
 
-	 ?>
-		var angle = 10;
+        @keyframes spin {
+  
+          0% { transform: rotatez(0deg);}
+          100% { transform: rotatez(360deg);}
+  
+        }
 
-
-	</script>
-	<script>
-var angle = 360;
-		$(document).ready(function(){
-			$(function animate(){
-        	//console.log('ok');
-        	$("#in1").animate({ rotate: angle+'deg'},600,animate);
-        	$("#in1").animate({ rotate: '0deg'},0);
-    });
-
-});
-
-	</script>
+	</style>
+	
 </head>
 <body>
 

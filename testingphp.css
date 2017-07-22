@@ -38,12 +38,7 @@ html,body{
   border-top-left-radius: 100%;
   border-top-right-radius: 100% ;
 }
-@keyframes spin {
-  
-  0% { transform: rotatez(0deg);}
-  100% { transform: rotatez(360deg);}
-  
-}
+
 #in1 {animation: spin1 43200s linear infinite; }
 
 #in2{
@@ -63,12 +58,7 @@ html,body{
   border-top-left-radius: 100%;
   border-top-right-radius: 100% ;
 }
-@keyframes spin {
-  
-  0% { transform: rotatez(0deg);}
-  100% { transform: rotatez(360deg);}
-  
-}
+
 #in2 {animation: spin2 3600s linear infinite; }
 
 #in3{
@@ -88,10 +78,5 @@ html,body{
   border-top-left-radius: 100%;
   border-top-right-radius: 100% ;
 }
-@keyframes spin {
-  
-  0% { transform: rotatez(0deg);}
-  100% { transform: rotatez(360deg);}
-  
-}
+
 #in3 {animation: spin3 60s linear infinite; }
