@@ -1,0 +1,138 @@
+/* 
+    Created on : 25 Jan, 2016, 10:43:40 PM
+    Author     : Sakthikanth.J
+*/
+html{
+    width: 100%;
+}
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe ui;
+    font-size: 14px;
+    background-color: white;
+    color: red;
+}
+.page_outer,.page_inner.page_top{
+    width: 100%;
+}
+.page_tittle{
+    width: 100%;
+    font-size: 30px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 0px;
+    //font-weight: bold;
+}
+.page_middle{
+    width: 100%;
+}
+.today_your{
+    width: 100%;
+    text-align: center;
+    
+}
+.ty_outer{
+    width: 100%;
+     text-align: center;
+     margin-top:4%;
+    
+}
+.ty_inner{
+    width: 100%;
+    text-align: left;
+  
+}
+.ty_head{
+    width: 100%;
+    text-align: right;
+}
+.ty_date{
+    text-align: right;
+    padding: 20px 40px;
+    color: red;
+}
+#form{
+    width: 100%;
+    display: inline-flex;
+    padding: 0px;
+    margin: 0px;
+}
+.ty_text{
+    width: 100%;
+    
+}
+#message_send{
+    background-color: rgba(70,120,10,1);
+    border: 0px;
+    height:180px;
+    position: absolute;
+    top: 39.3%;
+    right: 0%;
+    color: white;
+    cursor: pointer;
+}
+.ty_comments{
+    position: absolute;
+    top: 40%;
+    padding:20px 10% 20px 5%;
+    font-size: 14px;
+    border: 0px;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 85%;
+    max-width: 85%;
+    overflow: hidden;
+    letter-spacing: 0px;
+    line-height: 30px;
+    word-spacing: 10px;
+    height:130px;
+    word-wrap: break-word;
+}
+.ty_today_your{
+    width: 100%;
+    padding: 15px 0px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color:  cadetblue;
+}
+.ty_log_butt{
+    border: 1px solid;
+    background-color: white;
+    color:  blue;
+    font-size: 20px;
+    padding: 10px 25px;
+}
+#past_view{
+  width: 100%;
+  text-align: center;
+  background-color: gray;
+  position: absolute;
+    top: 80%;
+}
+#date,#message{
+    background-color: green;
+    width: 50%;
+}
+#save_style1{
+    border: 0.23em solid rgba(150,150,150,1);
+    position: absolute;
+    top: 0%;
+    left: -20%;
+    border-top-color: white;
+    border-left-color: white;
+}
+#save_style2{
+    border: 0.23em solid rgba(150,150,150,1);
+    position: absolute;
+    top: 96.7%;
+    left: -20%;
+    border-bottom-color: white;
+    border-left-color: white;
+}
+#ttt{
+    width: 100px;
+    background-color: blue;
+    overflow-wrap:  break-word;
+}

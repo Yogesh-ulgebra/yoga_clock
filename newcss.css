@@ -1,0 +1,62 @@
+/* 
+    Created on : Jan 25, 2016, 9:02:16 PM
+    Author     : Vijay-M-Kumar
+*/
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe ui;
+    font-size: 14px;
+}
+.pageTtl{
+    font-size: 30px;
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    //font-weight: bold;
+}
+.LP_outer{
+     text-align: center;
+     margin-top:10%;
+    
+}
+.LP_Inr{
+    display: inline-block;
+    text-align: left;
+}
+
+.LP_Ttl{
+    font-size: 25px;
+    font-weight: bold;
+    color:darkgreen;
+    margin-bottom:35px;
+    
+}
+.LP_inp_itm{
+    margin: 20px 0px;
+}
+.LP_inp_itm .inp_txt{
+    padding: 10px 25px;
+    font-size: 16px;
+    width: 300px;
+    text-transform: capitalize;
+    
+}
+.LP_inp_itm .inp_submit{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 7px 25px;
+    font-size: 16px;
+    border-bottom: 3px solid darkgreen;
+}
+#inp_regbtn .inp_submit:hover,#inp_regbtn .inp_submit:focus{
+    background-color: darkgreen;
+    border-bottom-color: green;
+    cursor: pointer;
+}
+.LP_Inr{
+    padding: 50px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+}
