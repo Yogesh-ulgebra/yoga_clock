@@ -1,0 +1,13 @@
+html,body{
+  width: 99%;
+}
+#out{
+  
+    width: 200px;
+  height: 200px;
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  left: %;
+  
+}
