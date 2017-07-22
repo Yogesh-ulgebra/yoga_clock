@@ -14,6 +14,7 @@
           100% { transform: rotatez(360deg);}
   
         }
+        
 
         @keyframes spin {
   
